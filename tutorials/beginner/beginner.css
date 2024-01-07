@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+#main {
+	width: 40vw;
+	margin: auto;
+	font-family: "Fira Code", monospace;
+}
+
+table {
+	text-align: left;
+}
+
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	background: #c9c9c9;
+}
+
+tr:nth-child(odd) {
+	background: #f0f0f0;
+}
+
+.weird_hover_thing {
+	border-bottom: 2px dashed black;
+	cursor: pointer;
+}
